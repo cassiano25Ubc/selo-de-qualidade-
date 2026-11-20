@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 236, 236);
+    margin: 50px;
+    padding: 90px;
+    display: flex;
+    transform-origin: left 400px;
+    transform: translateY(130px) rotate(-45deg); 
+    
+}
+
+.aviso {
+    background-color: rgb(0, 132, 255);
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 3px;
+}
+
+.aviso a {
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    font-weight: bold;
+    border: 2px solid rgb(255, 248, 248);
+    border-width: 2px;
+    padding: 20px 80px;
+}
